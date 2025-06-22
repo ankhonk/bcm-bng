@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+scroll-behavior: smooth;
+}
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+	margin: 0;  font-family: "Noto Sans", sans-serif; font-size: 16px
+}
+header{
+	width: 100%; height: 65px; background-color: #d8232a; border-bottom: #e4c875 4px solid
+}
+.menu{
+	padding-top: 24px
+}
+.menu ul{
+	margin: 0; padding: 0; ;list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: #f8f8f8; border-radius: 10px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+/*dropdown*/
+.menu ul li{
+	position: relative
+}
+.menu .drop-down{
+	position: absolute; left: 0; top: 100%; display: flex; flex-direction: column; width: 300px; background-color: rgba(86,0,1,0.80); display: none; z-index: 999
+}
+.menu .drop-down li{
+	border-bottom: 1px solid #c9c9c9; height: 35px; padding: 10px 10px
+	
+}
+.menu li:hover .drop-down{
+	display: block
+}
+.ve-chung-toi{
+	padding: 20px 10px; min-height: 200px
+}
+.tieu-de{
+	font-size: 40px; color: darkred; text-transform: capitalize; font-weight: 600; padding-top: 30px
+}
+.gach-chan{
+	border-bottom: 3px solid #e4c875
+} 
+.text{
+	font-size: 17px; color: #3D3D3D
+}
+.gach-ngang{
+	display: flex; flex-direction: row; width: 500px; height: 5px; background-color: #e4c875; 
+}
+.sp{
+	width: 100%; min-height: 200px; margin-top: 100px
+}
+.de-muc{
+	font-size: 25px;font-weight: 500; color: #3D3D3D; width: 50%; height: auto
+}
+.khung {
+	  width: 200px; min-height: 50px; border: none; text-align: center; padding: 10px; margin: 10px
+}
+a{
+	text-decoration: none 
+}
+.khung:hover{
+	 border: 2px solid darkred; border-radius: 10px; box-shadow: 5px 5px #c9c9c9
+}
+.in-dam{
+	font-weight: 600; color:  #3D3D3D
+}		 
+ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: row; flex-wrap: wrap;  justify-content: flex-start; align-items: flex-end
+}
+.text-do{
+	color: #AF1013; font-size: 22px; font-weight: 600
+}		 
+.sale{
+	color: #ACACAC; font-size: 15px
+}		 
+.phantram{
+	color: aliceblue; background-color: red; padding: 5px; border-radius: 8px
+}	
+/*======phan mau cho nav */
+
+#qc .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#qc .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#qc .owl-nav .owl-next{ position:absolute; right:5%;}
+#qc .owl-nav .owl-prev{ position:absolute; left:5%;}
+#qc .owl-nav [class*='owl-']:hover {
+      background: rgba(59,2,3,0.50);border: none;
+      color:yellow;
+      text-decoration: none; }
+#qc {
+	width: 500px; height: auto
+}
+footer{
+	background-color: #d8232a
+}
+.connect{
+	width: 90%; margin: 0 auto;
+}
+.text-trang{
+	color: white; font-size: 17px
+}
+.box {
+	border: 1px solid #c9c9c9; box-shadow: 5px 5px #c9c9c9; margin: 100px 0px; border-radius: 10px; color: #3D3D3D
+}
+.form-control{
+	margin: 5px; padding: 3px
+}
+.vien-xam{
+	width: 100%; padding: 10px; min-height: 300px; border: 1px solid #b9b9b9; border-radius: 5px; margin: 100px 20px
+}
+
+
+
